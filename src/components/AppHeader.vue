@@ -5,8 +5,9 @@ export default {
 </script>
 
 <template>
-    <h1>dc</h1>
+    <h1>POPOPOPOPOOPO</h1>
 </template>
 
-<style scoped lang="sass">
+<style lang="scss" scoped>
+@use "../styles/partials/variables";
 </style>
