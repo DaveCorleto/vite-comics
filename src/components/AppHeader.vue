@@ -1,13 +1,32 @@
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
 }
 </script>
 
 <template>
-    <h1>POPOPOPOPOOPO</h1>
+    <nav class="division">
+        <div class="logo">
+            <img src="C:\Coding\vite-comics\src\assets\img\dc-logo.png" />
+        </div>
+        <ul>
+            <li>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+                <ul>Characters</ul>
+            </li>
+        </ul>
+    </nav>
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables";
+@use "../styles/partials/variables" as*;
+@use "../styles/partials/mixins" as*;
 </style>
