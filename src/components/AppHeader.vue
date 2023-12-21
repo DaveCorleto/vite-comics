@@ -1,6 +1,6 @@
 <script>
 export default {
-    AppHeader
+    name: "AppHeader"
 }
 </script>
 
@@ -8,6 +8,5 @@ export default {
     <h1>dc</h1>
 </template>
 
-<style scoped>
-/* Il css scritto in SCSS  */
+<style scoped lang="sass">
 </style>
