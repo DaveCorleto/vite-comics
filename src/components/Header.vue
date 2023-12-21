@@ -4,7 +4,9 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <h1>dc</h1>
+</template>
 
 <style scoped>
 /* Il css scritto in SCSS  */
