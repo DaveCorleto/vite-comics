@@ -1,6 +1,6 @@
 <script>
 export default {
-    Header
+    AppHeader
 }
 </script>
 

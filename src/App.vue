@@ -1,9 +1,9 @@
 <script>
-import Header from './components/Header.vue'
+import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <Header />
+  <AppHeader />
 </template>
 
 <style lang="scss">
