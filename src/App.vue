@@ -3,13 +3,17 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import HelloWorld from './components/HelloWorld.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
 
 </script>
 
 <template>
   <AppHeader />
-  <AppHeader />
+  <AppJumbotron />
   <AppMain />
+  <AppCentralBar />
+  <AppOtherInfo />
+  <AppFooter />
 </template>
 
 <style lang="scss">
