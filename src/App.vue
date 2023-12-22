@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import AppJumbotron from './components/AppJumbotron.vue';
+import AppCentralBar from './components/AppCentralBar.vue';
 
 </script>
 

@@ -6,15 +6,14 @@ export default {
 
 <template>
     <div class="container">
-
+        <img src="C:/Coding/vite-comics/src/assets/img/jumbotron.jpg" alt="">
     </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
-    background-image: url('../src/img/jumbotron.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+    // background-image: url('~@C:/Coding/vite-comics/src/assets/img/jumbotron.jpg');
+    // background-size: cover;
+    // background-position: center;
 }
 </style>
