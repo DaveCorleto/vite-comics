@@ -6,13 +6,15 @@ export default {
 
 <template>
     <div class="container">
-        <img src=alt="jumbotron">
+
     </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
+    background-image: url('../src/img/jumbotron.jpg');
+    background-size: cover;
+    background-position: center;
     height: 300px;
-    background-image: url (@
-    }
+}
 </style>
