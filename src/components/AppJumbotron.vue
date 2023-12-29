@@ -12,8 +12,13 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    // background-image: url('~@C:/Coding/vite-comics/src/assets/img/jumbotron.jpg');
-    // background-size: cover;
-    // background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 </style>

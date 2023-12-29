@@ -6,6 +6,9 @@ import HelloWorld from './components/HelloWorld.vue';
 import AppJumbotron from './components/AppJumbotron.vue';
 import AppCentralBar from './components/AppCentralBar.vue';
 import AppOtherInfo from './components/AppOtherInfo.vue';
+import AppFather from './components/AppFather.vue';
+
+
 
 </script>
 
@@ -13,6 +16,9 @@ import AppOtherInfo from './components/AppOtherInfo.vue';
   <AppHeader />
   <AppJumbotron />
   <AppMain />
+
+  <AppFather />
+
   <AppCentralBar />
   <AppOtherInfo />
   <AppFooter />
