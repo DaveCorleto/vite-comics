@@ -11,6 +11,7 @@ import AppOtherInfo from './components/AppOtherInfo.vue';
 import App from './App.vue';
 import AppFather from './components/AppFather.vue';
 import AppCard from './components/AppCard.vue';
+import AppVocimenu from './components/AppVocimenu.vue';
 
 
 const app = createApp(App);
@@ -23,5 +24,5 @@ app.component('AppCentralBar', AppCentralBar);
 app.component('AppOtherInfo', AppOtherInfo);
 app.component('AppFather', AppFather);
 app.component('AppCard', AppCard);
-
+app.component('AppVocimenu', AppVocimenu);
 app.mount('#app');

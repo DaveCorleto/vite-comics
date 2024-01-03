@@ -6,7 +6,6 @@ export default {
 
 <template>
     <div class="container">
-        <img src="C:/Coding/vite-comics/src/assets/img/jumbotron.jpg" alt="">
     </div>
 </template>
 
@@ -14,11 +13,6 @@ export default {
 .container {
     width: 100%;
     height: 400px;
-}
-
-img {
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    background-image: url("../assets/img/jumbotron.jpg");
 }
 </style>
