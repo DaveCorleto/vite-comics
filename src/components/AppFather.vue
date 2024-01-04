@@ -86,20 +86,41 @@ export default {
 
 <template>
     <div class="container">
-        <AppCard v-for="(slide, i ) in slides" key="i" :thumbprops="slide.thumb" :prezzo="slide.price" :serie="slide.series"
-            :tipo:="slide.type" />
+        <div class="gallery">
+            <AppCard v-for="(slide, i ) in slides" key="i" :thumbprops="slide.thumb" :prezzo="slide.price"
+                :serie="slide.series" :tipo:="slide.type" />
+        </div>
+        <div class="load-more">LOAD MORE</div>
     </div>
 </template>
 
 <style lang="scss" scoped>
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    .gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .load-more {
+        background-color: rgb(97, 56, 211);
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+        width: 180px;
+        margin: auto;
+
+    }
 }
 </style>

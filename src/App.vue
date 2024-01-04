@@ -15,10 +15,7 @@ import AppFather from './components/AppFather.vue';
 <template>
   <AppHeader />
   <AppJumbotron />
-  <AppMain />
-
   <AppFather />
-
   <AppCentralBar />
   <AppOtherInfo />
   <AppFooter />
